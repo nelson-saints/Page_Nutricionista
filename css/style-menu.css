@@ -1,0 +1,23 @@
+.img-menu {
+    height: 315px;
+    background: url("/assets/img/bg-menu.svg");
+}
+
+.ebook {
+    width: 100%;
+    height: 272px;
+    background: url("/assets/img/hamburguer.svg");
+    z-index: -1;
+}
+
+.texto {
+    text-align: center;
+    padding: 50px 400px;
+}
+
+.texto p {
+    display: block;
+    text-align: center;
+    font-size: 45px;
+    background-color: rgba(226, 101, 10, 0.8);
+}
