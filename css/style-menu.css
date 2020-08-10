@@ -21,3 +21,34 @@
     font-size: 45px;
     background-color: rgba(226, 101, 10, 0.8);
 }
+
+.img-nutri {
+    filter: drop-shadow(-30px -10px 0px #527109);
+}
+
+.img-prato {
+    filter: drop-shadow(-30px -10px 0px #E7C31C);
+}
+
+.lista-receita {
+    list-style: none;
+}
+
+.card {
+    border-radius: 50px;
+}
+
+.card-img-top {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.card-body {
+    background-color: #527109;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.card-text {
+    color: white;
+}
