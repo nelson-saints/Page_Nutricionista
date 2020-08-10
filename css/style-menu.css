@@ -23,15 +23,14 @@
 }
 
 .ebook {
-    width: 100%;
     height: 272px;
     background: url("/assets/img/hamburguer.svg");
     z-index: -1;
 }
 
 .texto {
-    text-align: center;
-    padding: 50px 400px;
+    width: 442px;
+    background: rgba(226, 101, 10, 0.8);
 }
 
 .texto p {
@@ -70,4 +69,8 @@
 
 .card-text {
     color: white;
+}
+
+.border-footer {
+    border-top: 1px solid #8B0000;
 }
