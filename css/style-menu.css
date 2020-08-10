@@ -1,6 +1,25 @@
+.texto-apresentacao {
+    position: relative;
+    text-align: center;
+}
+
+.texto-apresentacao h1 {
+    font-size: 77px;
+    color: white;
+}
+
+.texto-apresentacao h2 {
+    font-size: 25px;
+    color: white;
+}
+
 .img-menu {
     height: 315px;
     background: url("/assets/img/bg-menu.svg");
+}
+
+.borda-menu {
+    border-top: 1px solid white;
 }
 
 .ebook {
