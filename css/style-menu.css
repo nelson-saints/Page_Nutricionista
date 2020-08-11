@@ -95,16 +95,25 @@
 
 .card {
     border-radius: 50px;
+    height: 84%;
 }
 
 .card-btn {
     border-radius: 50px;
-    display: flex;
 }
 
 .card-img-top {
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
+    height: inherit;
+}
+
+.botao-centro {
+    top: 184px;
+}
+
+.img-card {
+    align-items: center;
 }
 
 .btn-ver-receita {
@@ -120,8 +129,6 @@
     font-size: 18px;
     line-height: 20px;
     text-align: center;
-    display: flow-root;
-    float: inherit;
 }
 
 .card-body {
