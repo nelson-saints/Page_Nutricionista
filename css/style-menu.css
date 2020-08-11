@@ -5,12 +5,17 @@
 
 .texto-apresentacao h1 {
     font-size: 77px;
-    color: white;
+    color: #FFFFFF;
+    font-family: 'niconne', 'sans-serif';
+    ;
 }
 
 .texto-apresentacao h2 {
     font-size: 25px;
-    color: white;
+    line-height: 37px;
+    color: #FFFFFF;
+    font-family: 'Poppins', 'sans-serif';
+    ;
 }
 
 .img-menu {
@@ -22,22 +27,45 @@
     border-top: 1px solid white;
 }
 
+.nav a {
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 19px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.nav a:hover {
+    border-bottom: 4px solid #E2650A;
+    ;
+}
+
 .ebook {
+    text-align: center;
     height: 272px;
+    margin: 0 auto;
     background: url("/assets/img/hamburguer.svg");
     z-index: -1;
+    display: flex;
 }
 
 .texto {
-    width: 442px;
     background: rgba(226, 101, 10, 0.8);
+    margin-bottom: auto;
+    padding: 10px;
+    width: 570px;
+    height: 143px;
 }
 
-.texto p {
-    display: block;
-    text-align: center;
-    font-size: 45px;
-    background-color: rgba(226, 101, 10, 0.8);
+.texto h1 {
+    font-family: 'Poppins', 'sans-serif';
+    color: #FFFFFF;
+    font-size: 43px;
+}
+
+.texto h2 {
+    font-family: 'Poppins', 'sans-serif';
+    color: #FFFFFF;
+    font-size: 28px;
 }
 
 .img-nutri {
@@ -48,6 +76,19 @@
     filter: drop-shadow(-30px -10px 0px #E7C31C);
 }
 
+.prof-t {
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 20px;
+    line-height: 30px;
+    border-bottom: 2px solid #527109;
+}
+
+.text-in {
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 14px;
+    line-height: 20px;
+}
+
 .lista-receita {
     list-style: none;
 }
@@ -56,9 +97,19 @@
     border-radius: 50px;
 }
 
+.card-btn {
+    border-radius: 50px;
+}
+
 .card-img-top {
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
+}
+
+.btn-ver-receita {
+    background: #C4C4C4;
+    opacity: 0.79;
+    border-radius: 20px;
 }
 
 .card-body {
@@ -68,9 +119,59 @@
 }
 
 .card-text {
-    color: white;
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 18px;
+    color: #FFFFFF;
 }
 
 .border-footer {
     border-top: 1px solid #8B0000;
+}
+
+.btn-ver-mais {
+    background: #e2650a;
+    border-radius: 20px;
+    width: 279px;
+    font-family: 'Poppins', 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.btn-msgs {
+    background: #8c9676;
+    border-radius: 5px;
+    font-family: 'Poppins', 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.edit-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.edit-fot {
+    padding: 2%;
+    font-size: 15px;
+    font-family: 'Poppins', 'sans-serif';
+    color: #000000;
+    padding-left: 15%;
+}
+
+.edit-fot1 {
+    padding: 2%;
+    font-size: 10px;
+    font-family: 'Poppins', 'sans-serif';
+    color: #000000;
+}
+
+.pt-icon {
+    color: #527109;
 }
