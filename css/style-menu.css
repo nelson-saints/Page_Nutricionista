@@ -99,6 +99,7 @@
 
 .card-btn {
     border-radius: 50px;
+    display: flex;
 }
 
 .card-img-top {
@@ -107,9 +108,20 @@
 }
 
 .btn-ver-receita {
-    background: #C4C4C4;
+    background: #c4c4c4;
+    width: 179px;
+    color: #ffffff;
     opacity: 0.79;
     border-radius: 20px;
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    display: flow-root;
+    float: inherit;
 }
 
 .card-body {
